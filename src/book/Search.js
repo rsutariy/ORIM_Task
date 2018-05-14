@@ -37,6 +37,7 @@ export class Search extends Component {
 
     }
 
+    //Get Filter wise Books
     async getListofbooks() {
         try {
             this.setState({ loading: true });
@@ -55,7 +56,7 @@ export class Search extends Component {
         }
     }
 
-    async 
+    
 
     async componentWillMount() {
         await this.getListofbooks();
@@ -72,8 +73,8 @@ export class Search extends Component {
         if (this.state.loading) {
             body = <div className="row">Loading...</div>;
         } else if (this.state.booklist) {  
-            var data= this.state.booklist;
-           console.log(data[0].title);
+
+            var data= this.state.booklist; 
                 return(<div className=" card">
 
                 <div className="card-block">
@@ -93,7 +94,6 @@ export class Search extends Component {
             </div>
 ) 
         }
-
         return (
             <div>
                 {body}

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_ROOT = "https://raw.githubusercontent.com/rsutariy/ORIM_Test/master/server/data/";
+export const API_ROOT = "https://raw.githubusercontent.com/rsutariy/ORIM_Task/master/server/data/";
 const instance = axios.create();
 
 // Add a request interceptor
