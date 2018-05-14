@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin: 1%;
+}
+
+.card {
+  display: inline-block;
+  width: 28%;
+  min-height: 30vh;
+  margin: 1%;
+  padding:70px;
+  background-color:lightgrey;
+}
+
+.search{
+  color: black;
+  padding: 5px;
+  border-style: groove;
+  margin: 50px;
+}
+
+.notfound{
+  font-size: 20px;
+  margin: 50px;
+  padding: 50px;
+
+}
+
